@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+    <div class="header_div">
+        <img src="images/logo.png" alt="logo">
+        <h3>Kafene</h3>
+        <ul>
+            <li><a href="#" id="orders_id">Orders</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="user.html">Users</a></li>
+        </ul>
+        <h3><a href="index.html">Logout</a></h3>
+    </div>
+    <h1 id="order_h1">Orders </h1>
+
+    <div class="container_div">
+        <div class="child_cont1">
+            <h3>Filters</h3>
+            <h5>Count:11</h5>
+            <div class="input_div">
+            <input type="checkbox" checked id="input_1" name="input_1" onchange="input_func()">
+            <label for="input_1">New</label><br>
+            <input type="checkbox" checked  id="input_2" onchange="input_func2()">
+            <label for="input_2">Packed</label><br>
+            <input type="checkbox" checked  id="input_3" onchange="input_func3()">
+            <label for="input_3">InTransit</label><br>
+            <input type="checkbox" checked  id="input_4" onchange="input_func4()">
+            <label for="input_4">Delivered</label>
+        </div>
+        </div>
+        <div class="child_cont2">
+            <table>
+                <thead class="thead">
+                    <tr>
+                        <th>ID</th>
+                        <th class="th_1">Customer</th>
+                        <th class="th_2">Date</th>
+                        <th class="th_5">Time</th>
+                        <th class="th_3">Amount</th>
+                        <th class="th_4">Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="order.js"></script>
+</body>
+</html>

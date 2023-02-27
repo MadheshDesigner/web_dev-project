@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="header_div">
+        <img src="images/logo.png" alt="logo">
+        <h3>Kafene</h3>
+        <ul>
+            <li><a href="Order.html" >Orders</a></li>
+            <li><a href="product.html" >Products</a></li>
+            <li><a href="user.html" id="orders_id">Users</a></li>
+        </ul>
+        <h3><a href="index.html">Logout</a></h3>
+    </div>
+     <h1 id="order_h1">Users </h1>
+     <div class="search_box">
+        <input type="text" placeholder="search by Name" id="input1">
+        <button id="Btn">Reset</button>
+     </div>
+
+        <div class="child_cont2">
+            <table>
+                <thead class="thead">
+                    <tr>
+                        <th class="">ID</th>
+                        <th class="th_1">ProfilePic</th>
+                        <th class="th_2">FullName</th>
+                        <th class="th_5">Dob</th>
+                        <th class="th_3">Gender</th>
+                        <th class="th_4">CurrentCity</th>
+                        <th class="th_6">CurrentCountry</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+</html>

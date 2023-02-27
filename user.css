@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f7fb;
+}
+.header_div{
+    display: flex;
+   align-items: center;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   width:100% ;
+   height: 70px;
+   background-color: #ffff;
+}
+
+.header_div>ul{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.header_div>ul>li{
+    list-style: none;
+    padding-left: 30px;
+}
+.header_div>ul>li>a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header_div>img{
+    padding-left: 60px;
+}
+.header_div>h3{
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+
+
+#orders_id{
+    border-bottom: 2px solid #20b883;
+    color: #20b883;
+    padding-bottom: 10px;
+}
+
+#order_h1{
+    font-size: 28px;
+    margin: 40px 80px;
+    font-weight: bold;
+}
+
+.header_div>h3>a{
+    text-decoration: none;
+    margin-left: 670px;
+    font-size: 20px;
+    color: #454545;
+}
+.search_box{
+    margin: 20px 70px;
+}
+.search_box>input{
+    border: none;
+    width: 500px;
+   padding: 15px 20px;
+   border-bottom: 2px solid gray;
+   outline: none;
+   font-size: 16px;
+}
+.search_box>button{
+    padding: 15px 35px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #20b883;
+    color: #ffff;
+    border: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.child_cont2{
+    margin-left: 150px;
+    margin: 50px 150px;
+}
+
+th{
+    padding: 20px 30px;
+    position: relative;
+    left: -60px;
+}
+
+
+#tableBody{
+    background-color: #fff;
+    box-shadow: rgba(153, 157, 160, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 70px;
+    position: relative;
+    top: 20px;
+    left: -60px;
+}
+
+#tableBody>tr,td{
+  padding: 20px;
+  font-size: 14px;
+}
+
+#data_id,#data_id2,#data_id3,#data_id4{
+    color: #9b8c9b;
+}
